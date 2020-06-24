@@ -90,7 +90,7 @@ export default class ContentEditable extends React.Component<Props> {
       el.innerHTML = this.props.html;
     }
     this.lastHtml = this.props.html;
-    replaceCaret(el);
+    //replaceCaret(el);
   }
 
   emitChange = (originalEvt: React.SyntheticEvent<any>) => {
